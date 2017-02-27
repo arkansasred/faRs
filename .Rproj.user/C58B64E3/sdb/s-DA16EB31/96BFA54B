@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: faRs\nType: Package\nTitle: What the Package Does (Title Case)\nVersion: 0.1.0\nAuthor: Who wrote it\nMaintainer: The package maintainer <yourself@somewhere.net>\nDescription: More about what it does (maybe more than one line)\n    Use four spaces when indenting paragraphs within the Description.\nLicense: What license is it under?\nEncoding: UTF-8\nLazyData: true\nRoxygenNote: 6.0.1\nSuggests: knitr,\n    rmarkdown\nVignetteBuilder: knitr\n",
+    "created" : 1488217137924.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2106570258",
+    "id" : "96BFA54B",
+    "lastKnownWriteTime" : 1488227770,
+    "last_content_update" : 1488227770,
+    "path" : "~/faRs/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

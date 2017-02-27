@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Map FARS Data\"\nauthor: \"Josh Oberman\"\ndate: \"`r Sys.Date()`\"\noutput: rmarkdown::html_vignette\nvignette: >\n  %\\VignetteIndexEntry{Map FARS Data}\n  %\\VignetteEngine{knitr::rmarkdown}\n  %\\VignetteEncoding{UTF-8}\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n```{r, fig.show='hold'}\nplot(1:10)\nplot(10:1)\n```\n\nThe faRs package allows users to load and map data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.\n\nThe package allows for quick and easy visualization that allows for direct comparison of accident data between states and across different years, for instance we could compare accidents in Illinois and Indiana for 2014:\n\n```{r}\nlibrary(faRs)\npar(mfrow=c(1,2))\nIL<-fars_map_state(17,2014)\nIN<-fars_map_state(18,2015)\nIL;IN\n```\n\n",
+    "created" : 1488227770981.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2725021668",
+    "id" : "526D4774",
+    "lastKnownWriteTime" : 1488227990,
+    "last_content_update" : 1488227995156,
+    "path" : "~/faRs/vignettes/fars_map.Rmd",
+    "project_path" : "vignettes/fars_map.Rmd",
+    "properties" : {
+        "last_setup_crc32" : "75971D73bb338d19"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

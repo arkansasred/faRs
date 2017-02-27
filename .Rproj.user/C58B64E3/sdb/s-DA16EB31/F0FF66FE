@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(testthat)\n\nexpect_that(fars_map_state(100,2014),throws_error())\nexpect_that(fars_map_state(10,2001),gives_warning())\n",
+    "created" : 1488228876341.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2450828752",
+    "id" : "F0FF66FE",
+    "lastKnownWriteTime" : 1488229312,
+    "last_content_update" : 1488229312866,
+    "path" : "~/faRs/tests/test_fars.R",
+    "project_path" : "tests/test_fars.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

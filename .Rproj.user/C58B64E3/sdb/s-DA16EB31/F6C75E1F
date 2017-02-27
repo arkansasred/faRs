@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "faRs Package: Map FARS Data with R\n\n-------------------------------------\n\nThis package will allow users to load and map data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.\n\nThe package can be installed using:\n",
+    "created" : 1488229347487.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2043093912",
+    "id" : "F6C75E1F",
+    "lastKnownWriteTime" : 1488229492,
+    "last_content_update" : 1488229492126,
+    "path" : "~/faRs/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
