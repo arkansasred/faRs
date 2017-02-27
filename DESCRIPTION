@@ -3,6 +3,7 @@ Type: Package
 Title: Map FARS Data
 Version: 0.1.0
 Author: Josh Oberman
+Maintainer: Josh <joshoberman@gmail.com>
 Description: Map traffic fatality data in any US state between 2013-2015
 License: GPL-3
 Encoding: UTF-8
