@@ -7,7 +7,7 @@ library(roxygen2)
 #'
 #' @return This function returns a tibble of FARS data
 #'
-#' @examples file<-make_filename(2014); fars_2014<-fars_read(file)
+#' @examples \dontrun file<-make_filename(2014); fars_2014<-fars_read(file)
 #'
 #' @importFrom readr read_csv
 #'
@@ -28,7 +28,7 @@ fars_read <- function(filename) {
 #'
 #' @return This function returns a filename to be used with fars_read
 #'
-#' @examples file<-make_filename(2014); fars_2014<-fars_read(file)
+#' @examples \dontrun file<-make_filename(2014); fars_2014<-fars_read(file)
 #'
 #' @export
 
@@ -45,7 +45,7 @@ make_filename <- function(year) {
 #'
 #' @return this function returns a tibble with data from all years of interest
 #'
-#' @examples fars<-fars_read_years(c(2012,2013,2014))
+#' @examples \dontrun fars<-fars_read_years(c(2012,2013,2014))
 #'
 #' @importFrom dplyr mutate select
 #'
@@ -99,7 +99,7 @@ fars_summarize_years <- function(years) {
 #' given state for the given year.  If there is no data for that year or the state number is invalid, the function
 #' will return a NULL.
 #'
-#' @examples fars_map_state(1,2014)
+#' @examples \dontrun fars_map_state(1,2014)
 #'
 #' @importFrom maps map
 #' @importFrom dplyr filter

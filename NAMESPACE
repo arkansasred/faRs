@@ -7,3 +7,9 @@ importFrom("tidyr","spread")
 importFrom("graphics","points")
 
 importFrom("readr","read_csv")
+
+import("knitr")
+
+import("testthat")
+
+importFrom("maps","map")

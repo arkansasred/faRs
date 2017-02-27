@@ -19,6 +19,6 @@ Read in multiple years of FARS data
 NULL returned if no data for any input years
 }
 \examples{
-fars<-fars_read_years(c(2012,2013,2014))
+\dontrun fars<-fars_read_years(c(2012,2013,2014))
 
 }
