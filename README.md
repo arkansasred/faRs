@@ -1,4 +1,4 @@
-faRs Package: Map FARS Data with R
+## faRs Package: Map FARS Data with R
 
 -------------------------------------
 
