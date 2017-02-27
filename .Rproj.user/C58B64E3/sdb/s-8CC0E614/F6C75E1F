@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "faRs Package: Map FARS Data with R\n\n-------------------------------------\n\nThis package will allow users to load and map data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.\n\nThe package can be installed using:\n",
+    "contents" : "## faRs Package: Map FARS Data with R\n\n-------------------------------------\n\nThis package will allow users to load and map data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.\n\nThe package can be installed using:\n\n    library(devtools)\n    install_github(\"arkansasred/faRs\")\n",
     "created" : 1488229347487.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2043093912",
+    "hash" : "1388593139",
     "id" : "F6C75E1F",
-    "lastKnownWriteTime" : 1488229492,
-    "last_content_update" : 1488229492126,
+    "lastKnownWriteTime" : 1488230914,
+    "last_content_update" : 1488230914,
     "path" : "~/faRs/README.md",
     "project_path" : "README.md",
     "properties" : {
