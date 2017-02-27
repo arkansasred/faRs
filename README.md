@@ -6,5 +6,5 @@ This package will allow users to load and map data from the US National Highway 
 
 The package can be installed using:
 
-  library(devtools)
-  install_github("arkansasred/faRs")
+    library(devtools)
+    install_github("arkansasred/faRs")
