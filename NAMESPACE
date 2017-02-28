@@ -11,5 +11,6 @@ importFrom("readr","read_csv")
 import("knitr")
 
 import("testthat")
+import("rmarkdown")
 
 importFrom("maps","map")
