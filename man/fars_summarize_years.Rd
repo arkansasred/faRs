@@ -13,6 +13,6 @@ This function returns a tibble with summaries of record counts by month for each
 Summarize record counts by year
 }
 \examples{
-fars<-fars_summarize_years(c(2012,2013,2014))
+\dontRun fars<-fars_summarize_years(c(2012,2013,2014))
 
 }

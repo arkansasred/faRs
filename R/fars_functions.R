@@ -1,4 +1,3 @@
-library(roxygen2)
 #' Read in FARS data
 #'
 #' @note error returned if file does not exist
