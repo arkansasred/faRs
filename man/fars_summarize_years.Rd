@@ -6,6 +6,9 @@
 \usage{
 fars_summarize_years(years)
 }
+\arguments{
+\item{years}{a vector of integer years, if data for any years don't exist, no data will be returned}
+}
 \value{
 This function returns a tibble with summaries of record counts by month for each Year of interest
 }

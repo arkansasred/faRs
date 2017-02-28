@@ -66,7 +66,7 @@ fars_read_years <- function(years) {
 
 #' Summarize record counts by year
 #'
-#' @inheritParams years
+#' @inheritParams fars_read_years
 #'
 #' @return This function returns a tibble with summaries of record counts by month for each Year of interest
 #'
@@ -91,7 +91,7 @@ fars_summarize_years <- function(years) {
 #'
 #' @note Error returned if invalid state.num, NULL returned if no accidents occured in a given state/year
 #'
-#' @inheritParams year
+#' @inheritParams make_filename
 #' @param state.num integer reperesenting state of interest
 #'
 #' @return This function returns a graphics object that is a map of accidents within the

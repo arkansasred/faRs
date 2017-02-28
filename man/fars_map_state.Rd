@@ -8,6 +8,8 @@ fars_map_state(state.num, year)
 }
 \arguments{
 \item{state.num}{integer reperesenting state of interest}
+
+\item{year}{integer of year}
 }
 \value{
 This function returns a graphics object that is a map of accidents within the
