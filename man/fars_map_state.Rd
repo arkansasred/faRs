@@ -21,6 +21,6 @@ This function will produce a map of accidents within a state for a given year
 Error returned if invalid state.num, NULL returned if no accidents occured in a given state/year
 }
 \examples{
-\dontrun fars_map_state(1,2014)
+\dontRun fars_map_state(1,2014)
 
 }

@@ -98,7 +98,7 @@ fars_summarize_years <- function(years) {
 #' given state for the given year.  If there is no data for that year or the state number is invalid, the function
 #' will return a NULL.
 #'
-#' @examples \dontrun fars_map_state(1,2014)
+#' @examples \dontRun fars_map_state(1,2014)
 #'
 #' @importFrom maps map
 #' @importFrom dplyr filter
