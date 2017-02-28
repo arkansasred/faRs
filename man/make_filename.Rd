@@ -16,6 +16,6 @@ This function returns a filename to be used with fars_read
 Make filename for FARS data in a given year
 }
 \examples{
-\dontrun file<-make_filename(2014); fars_2014<-fars_read(file)
+\dontrun{file<-make_filename(2014); fars_2014<-fars_read(file)}
 
 }

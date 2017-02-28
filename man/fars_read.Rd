@@ -19,6 +19,6 @@ Read in FARS data
 error returned if file does not exist
 }
 \examples{
-\dontrun file<-make_filename(2014); fars_2014<-fars_read(file)
+\dontrun{file<-make_filename(2014); fars_2014<-fars_read(file)}
 
 }
