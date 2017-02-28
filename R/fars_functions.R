@@ -71,7 +71,7 @@ fars_read_years <- function(years) {
 #'
 #' @return This function returns a tibble with summaries of record counts by month for each Year of interest
 #'
-#' @examples fars<-fars_summarize_years(c(2012,2013,2014))
+#' @examples \dontRun fars<-fars_summarize_years(c(2012,2013,2014))
 #'
 #' @importFrom dplyr bind_rows group_by summarize
 #' @importFrom tidyr spread
