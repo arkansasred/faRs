@@ -12,10 +12,6 @@ vignette: >
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-```{r, fig.show='hold'}
-plot(1:10)
-plot(10:1)
-```
 
 The faRs package allows users to load and map data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
 
@@ -23,9 +19,9 @@ The package allows for quick and easy visualization that allows for direct compa
 
 ```{r}
 library(faRs)
+library(maps)
 par(mfrow=c(1,2))
 IL<-fars_map_state(17,2014)
 IN<-fars_map_state(18,2015)
-IL;IN
 ```
 

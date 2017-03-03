@@ -1,3 +1,0 @@
-"0","library(faRs)"
-"0","par(mfrow=c(1,2))"
-"0","IL<-fars_map_state(17,2014)"
