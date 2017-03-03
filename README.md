@@ -8,3 +8,6 @@ The package can be installed using:
 
     library(devtools)
     install_github("arkansasred/faRs")
+    
+![Alt text](https://travis-ci.org/arkansasred/faRs.svg?branch=master)
+
