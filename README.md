@@ -11,3 +11,5 @@ The package can be installed using:
     
 ![Alt text](https://travis-ci.org/arkansasred/faRs.svg?branch=master)
 
+Latest build details can be found <a href="https://travis-ci.org/arkansasred/faRs"> here </a>
+
